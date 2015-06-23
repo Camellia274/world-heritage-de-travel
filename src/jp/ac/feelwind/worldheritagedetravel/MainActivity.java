@@ -1,9 +1,12 @@
 package jp.ac.feelwind.worldheritagedetravel;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
 
 public class MainActivity extends Activity {
 
@@ -11,6 +14,29 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+
+		//クイズボタンが押されたら
+		ImageView quiz = (ImageView)findViewById(R.id.quiz);
+		quiz.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				// TODO 自動生成されたメソッド・スタブ
+				Intent intent = new Intent(MainActivity.this,QuizStart.class);
+				startActivity(intent);
+			}
+		});
+
+		//メニュボタンが押されたとき
+		ImageView menu =(ImageView)findViewById(R.id.menu);
+		menu.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				// TODO 自動生成されたメソッド・スタブ
+				Intent intent = new Intent(MainActivity.this,Menu.class);
+				startActivity(intent);
+			}
+		});
 	}
 
 	@Override
