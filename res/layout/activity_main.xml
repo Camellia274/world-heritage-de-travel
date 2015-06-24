@@ -14,4 +14,22 @@
         android:layout_height="wrap_content" >
     </GridLayout>
 
+    <ImageView
+        android:id="@+id/quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="168dp"
+        android:src="@drawable/quiz" />
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/quiz"
+        android:layout_alignTop="@+id/quiz"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/menu" />
+
 </RelativeLayout>
