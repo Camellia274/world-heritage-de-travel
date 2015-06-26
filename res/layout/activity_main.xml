@@ -6,7 +6,7 @@
     tools:context="jp.ac.feelwind.worldheritagedetravel.MainActivity" >
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/menu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
@@ -14,15 +14,15 @@
         android:src="@drawable/menu" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/quiz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView4"
-        android:layout_alignLeft="@+id/imageView4"
+        android:layout_above="@+id/ranking"
+        android:layout_alignLeft="@+id/ranking"
         android:src="@drawable/quiz" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/ranking"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -31,13 +31,13 @@
         android:src="@drawable/ranking" />
 
     <ImageView
-        android:id="@+id/imageView1"
+        android:id="@+id/chara1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/textView2"
         android:layout_alignParentLeft="true"
-        android:layout_alignRight="@+id/imageView3"
-        android:layout_below="@+id/imageView2"
+        android:layout_alignRight="@+id/quiz"
+        android:layout_below="@+id/menu"
         android:layout_marginLeft="40dp"
         android:layout_marginTop="52dp"
         android:src="@drawable/character1" />
@@ -46,8 +46,8 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView3"
-        android:layout_alignLeft="@+id/imageView1"
+        android:layout_above="@+id/quiz"
+        android:layout_alignLeft="@+id/chara1"
         android:layout_marginBottom="36dp"
         android:text="次のLvまで &quot;       &quot; pt"
         android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -58,7 +58,7 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_marginLeft="17dp"
-        android:layout_toRightOf="@+id/imageView1"
+        android:layout_toRightOf="@+id/chara1"
         android:text="名前を表示" />
 
 </RelativeLayout>

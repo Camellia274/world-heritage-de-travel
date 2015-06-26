@@ -27,7 +27,7 @@
         <activity android:name=".Tutorial" android:label="@string/app_name"></activity>
         <activity android:name=".Top" android:label="@string/app_name"></activity>
         <activity android:name=".Character" android:label="@string/app_name"></activity>
-
+		<activity android:name=".RankingHeritage" android:label="@string/app_name"></activity>
 
 
     </application>

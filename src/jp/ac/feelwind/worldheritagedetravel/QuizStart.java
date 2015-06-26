@@ -31,6 +31,17 @@ public class QuizStart extends Activity {
 			}
 		});
 
+		//地域別が押されたとき
+		ImageView tiiki = (ImageView)findViewById(R.id.tiiki);
+		tiiki.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				// TODO 自動生成されたメソッド・スタブ
+				Intent intent = new Intent(QuizStart.this,TiikiQuiz.class);
+				startActivity(intent);
+			}
+		});
+
 	}
 
 }

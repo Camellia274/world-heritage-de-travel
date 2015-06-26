@@ -12,28 +12,18 @@ public class MainActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		// TODO 自動生成されたメソッド・スタブ
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.top);
 
-		//クイズボタンが押されたら
-		ImageView quiz = (ImageView)findViewById(R.id.quiz);
-		quiz.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				// TODO 自動生成されたメソッド・スタブ
-				Intent intent = new Intent(MainActivity.this,QuizStart.class);
-				startActivity(intent);
-			}
-		});
-
-		//メニュボタンが押されたとき
-		ImageView menu =(ImageView)findViewById(R.id.menu);
-		menu.setOnClickListener(new View.OnClickListener() {
+		//TOPがタップされたら
+		ImageView top = (ImageView)findViewById(R.id.topbutton);
+		top.setOnClickListener(new View.OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
 				// TODO 自動生成されたメソッド・スタブ
-				Intent intent = new Intent(MainActivity.this,Menu.class);
+				Intent intent = new Intent(MainActivity.this,Top.class);
 				startActivity(intent);
 			}
 		});
