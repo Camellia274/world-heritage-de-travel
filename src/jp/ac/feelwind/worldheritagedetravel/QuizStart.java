@@ -32,7 +32,7 @@ public class QuizStart extends Activity {
 		});
 
 		//地域別が押されたとき
-		ImageView tiiki = (ImageView)findViewById(R.id.tiiki);
+		ImageView tiiki = (ImageView)findViewById(R.id.tiikibetu);
 		tiiki.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
