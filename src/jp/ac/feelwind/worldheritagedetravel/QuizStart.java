@@ -42,6 +42,17 @@ public class QuizStart extends Activity {
 			}
 		});
 
+		//TOPボタンが押されたとき
+		ImageView top = (ImageView)findViewById(R.id.quiztop);
+		top.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				// TODO 自動生成されたメソッド・スタブ
+				Intent intent = new Intent(QuizStart.this,Top.class);
+				startActivity(intent);
+			}
+		});
+
 	}
 
 }

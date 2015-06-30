@@ -36,7 +36,7 @@ public class Top extends Activity {
 			}
 		});
 
-		//ランニングボタンが押されたとき
+		//ランきングボタンが押されたとき
 		ImageView ranking =(ImageView)findViewById(R.id.ranking);
 		ranking.setOnClickListener(new View.OnClickListener() {
 
