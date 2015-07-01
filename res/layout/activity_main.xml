@@ -6,49 +6,53 @@
     tools:context="jp.ac.feelwind.worldheritagedetravel.MainActivity" >
 
     <ImageView
-        android:id="@+id/menu"
+        android:id="@+id/imageView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:src="@drawable/menu" />
+        android:layout_alignLeft="@+id/imageView6"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="28dp"
+        android:src="@drawable/jon" />
 
     <ImageView
-        android:id="@+id/quiz"
+        android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/ranking"
-        android:layout_alignLeft="@+id/ranking"
+        android:layout_above="@+id/imageView7"
+        android:layout_alignLeft="@+id/imageView5"
+        android:src="@drawable/check" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView6"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/osusume" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView5"
+        android:layout_alignLeft="@+id/imageView1"
         android:src="@drawable/quiz" />
 
     <ImageView
-        android:id="@+id/ranking"
+        android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="61dp"
-        android:src="@drawable/ranking" />
-
-    <ImageView
-        android:id="@+id/chara1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/textView2"
+        android:layout_above="@+id/imageView3"
         android:layout_alignParentLeft="true"
-        android:layout_alignRight="@+id/quiz"
-        android:layout_below="@+id/menu"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginBottom="16dp"
         android:src="@drawable/character1" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/quiz"
-        android:layout_alignLeft="@+id/chara1"
-        android:layout_marginBottom="36dp"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignParentRight="true"
         android:text="次のLvまで &quot;       &quot; pt"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
@@ -56,9 +60,8 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="17dp"
-        android:layout_toRightOf="@+id/chara1"
+        android:layout_above="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
         android:text="名前を表示" />
 
 </RelativeLayout>
