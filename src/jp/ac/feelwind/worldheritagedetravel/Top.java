@@ -14,7 +14,7 @@ public class Top extends Activity {
 		setContentView(R.layout.activity_main);
 
 		//クイズボタンが押されたら
-		ImageView quiz = (ImageView)findViewById(R.id.quiz);
+		ImageView quiz = (ImageView)findViewById(R.id.quiztop);
 		quiz.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -25,7 +25,7 @@ public class Top extends Activity {
 		});
 
 		//メニュボタンが押されたとき
-		ImageView menu =(ImageView)findViewById(R.id.menu);
+		ImageView menu =(ImageView)findViewById(R.id.menutop);
 		menu.setOnClickListener(new View.OnClickListener() {
 
 			@Override
@@ -37,7 +37,7 @@ public class Top extends Activity {
 		});
 
 		//ランきングボタンが押されたとき
-		ImageView ranking =(ImageView)findViewById(R.id.ranking);
+		ImageView ranking =(ImageView)findViewById(R.id.rankingtop);
 		ranking.setOnClickListener(new View.OnClickListener() {
 
 			@Override
