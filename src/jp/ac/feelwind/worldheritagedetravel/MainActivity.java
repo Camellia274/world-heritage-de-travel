@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 
 		//TOPがタップされたら
-		ImageView top = (ImageView)findViewById(R.id.topbutton);
+		ImageView top = (ImageView)findViewById(R.id.topview);
 		top.setOnClickListener(new View.OnClickListener() {
 
 			@Override
