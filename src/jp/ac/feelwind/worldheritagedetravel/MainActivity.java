@@ -14,7 +14,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO 自動生成されたメソッド・スタブ
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.top);
+		setContentView(R.layout.activity_main);
 
 		//TOPがタップされたら
 		ImageView top = (ImageView)findViewById(R.id.topbutton);

@@ -11,10 +11,10 @@ public class Top extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.top);
 
 		//クイズボタンが押されたら
-		ImageView quiz = (ImageView)findViewById(R.id.quiztop);
+		ImageView quiz = (ImageView)findViewById(R.id.quiz);
 		quiz.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -24,26 +24,38 @@ public class Top extends Activity {
 			}
 		});
 
-		//メニュボタンが押されたとき
-		ImageView menu =(ImageView)findViewById(R.id.menutop);
-		menu.setOnClickListener(new View.OnClickListener() {
-
-			@Override
-			public void onClick(View v) {
-				// TODO 自動生成されたメソッド・スタブ
-				Intent intent = new Intent(Top.this,Menu.class);
-				startActivity(intent);
-			}
-		});
-
-		//ランきングボタンが押されたとき
-		ImageView ranking =(ImageView)findViewById(R.id.rankingtop);
-		ranking.setOnClickListener(new View.OnClickListener() {
+		//おすすめが押されたとき
+		ImageView osusume =(ImageView)findViewById(R.id.osusume);
+		osusume.setOnClickListener(new View.OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
 				// TODO 自動生成されたメソッド・スタブ
 				Intent intent = new Intent(Top.this,RankingHeritage.class);
+				startActivity(intent);
+			}
+		});
+
+		//チェックリストが押されたとき
+		ImageView checklist =(ImageView)findViewById(R.id.checklist);
+		checklist.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				// TODO 自動生成されたメソッド・スタブ
+				Intent intent = new Intent(Top.this,CheckList.class);
+				startActivity(intent);
+			}
+		});
+
+		//キャラクターが押されたら
+		ImageView character =(ImageView)findViewById(R.id.character);
+		character.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				// TODO 自動生成されたメソッド・スタブ
+				Intent intent = new Intent(Top.this,Character.class);
 				startActivity(intent);
 			}
 		});

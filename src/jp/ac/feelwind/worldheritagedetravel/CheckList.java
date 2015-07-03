@@ -1,3 +1,6 @@
+/**
+ *
+ */
 package jp.ac.feelwind.worldheritagedetravel;
 
 import android.app.Activity;
@@ -6,26 +9,31 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class Character extends Activity {
-
+/**
+ * @author student
+ *
+ */
+public class CheckList extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO 自動生成されたメソッド・スタブ
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.character);
+		setContentView(R.layout.checklist);
 
-		//TOPが押されたら
-		ImageView top =(ImageView)findViewById(R.id.charatop);
+		//TOPが押されえたら
+		ImageView top =(ImageView)findViewById(R.id.checktop);
 		top.setOnClickListener(new View.OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
 				// TODO 自動生成されたメソッド・スタブ
-				Intent intent = new Intent(Character.this,MainActivity.class);
+				Intent intent = new Intent(CheckList.this,MainActivity.class);
 				startActivity(intent);
 			}
 		});
+
+
 	}
 
 }
