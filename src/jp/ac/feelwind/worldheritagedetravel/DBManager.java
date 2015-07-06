@@ -33,7 +33,9 @@ public class DBManager extends SQLiteOpenHelper {
 
 		try {
 			db.execSQL("CREATE TABLE IF NOT EXISTS "
-					+ "");
+					+ "user(user_id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, total_point INTEGER)");
+			db.execSQL("CREATE TABLE IF NOT EXISTS "
+					+ "world_heritage(world_heritage_id INTEGER PRIMARY KEY AUTOINCREMENT, )");
 
 			db.setTransactionSuccessful();
 		} catch (Exception e) {
@@ -50,7 +52,7 @@ public class DBManager extends SQLiteOpenHelper {
 	@Override
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 		// TODO 自動生成されたメソッド・スタブ
-		db.execSQL("DROP TABLE ");
+		db.execSQL("DROP TABLE user");
 		onCreate(db);
 	}
 
