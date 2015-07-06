@@ -29,8 +29,19 @@ public class DBManager extends SQLiteOpenHelper {
 	@Override
 	public void onCreate(SQLiteDatabase db) {
 		// TODO 自動生成されたメソッド・スタブ
-		db.execSQL("CREATE TABLE IF NOT EXISTS "
-				+ "");
+		db.beginTransaction();
+
+		try {
+			db.execSQL("CREATE TABLE IF NOT EXISTS "
+					+ "");
+
+			db.setTransactionSuccessful();
+		} catch (Exception e) {
+			// TODO: handle exception
+
+		} finally{
+			db.endTransaction();
+		}
 	}
 
 	/* (非 Javadoc)
@@ -39,7 +50,8 @@ public class DBManager extends SQLiteOpenHelper {
 	@Override
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 		// TODO 自動生成されたメソッド・スタブ
-
+		db.execSQL("DROP TABLE ");
+		onCreate(db);
 	}
 
 }
