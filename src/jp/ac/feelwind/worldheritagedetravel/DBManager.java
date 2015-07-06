@@ -5,7 +5,6 @@ package jp.ac.feelwind.worldheritagedetravel;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteOpenHelper;
 
 /**
@@ -13,10 +12,14 @@ import android.database.sqlite.SQLiteOpenHelper;
  *
  */
 public class DBManager extends SQLiteOpenHelper {
-
-	public DBManager(Context context, String name, CursorFactory factory,
-			int version) {
-		super(context, name, factory, version);
+/*
+ * @param context
+ * @param name
+ * @param factory
+ * @param version
+ */
+	public DBManager(Context context) {
+		super(context, "travelq.sqlite3", null, 1);
 		// TODO 自動生成されたコンストラクター・スタブ
 	}
 
@@ -26,7 +29,8 @@ public class DBManager extends SQLiteOpenHelper {
 	@Override
 	public void onCreate(SQLiteDatabase db) {
 		// TODO 自動生成されたメソッド・スタブ
-
+		db.execSQL("CREATE TABLE IF NOT EXISTS "
+				+ "");
 	}
 
 	/* (非 Javadoc)
