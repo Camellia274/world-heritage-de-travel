@@ -2,6 +2,7 @@ package jp.ac.feelwind.worldheritagedetravel;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -9,6 +10,9 @@ import android.view.View;
 import android.widget.ImageView;
 
 public class MainActivity extends Activity {
+
+	private SQLiteDatabase sqlDB;
+	DBManager dbm;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +31,21 @@ public class MainActivity extends Activity {
 				startActivity(intent);
 			}
 		});
+	}
+
+	@Override
+	protected void onResume() {
+		// TODO 自動生成されたメソッド・スタブ
+		super.onResume();
+		dbm =new DBManager(this);
+		sqlDB = dbm.getWritableDatabase();
+	}
+
+	@Override
+	protected void onPause() {
+		// TODO 自動生成されたメソッド・スタブ
+		super.onPause();
+		sqlDB.close();
 	}
 
 	@Override
