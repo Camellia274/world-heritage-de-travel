@@ -80,15 +80,25 @@ public class DBManager extends SQLiteOpenHelper {
 	@Override
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 		// TODO 自動生成されたメソッド・スタブ
-		db.execSQL("DROP TABLE user");
-		db.execSQL("DROP TABLE world_heritage");
-		db.execSQL("DROP TABLE list");
-		db.execSQL("DROP TABLE ranking");
-		db.execSQL("DROP TABLE world_heritage_image");
-		db.execSQL("DROP TABLE quiz");
-		db.execSQL("DROP TABLE character");
-		db.execSQL("DROP TABLE evolution_state");
-		onCreate(db);
+		db.beginTransaction();
+
+		try {
+			db.execSQL("DROP TABLE user");
+			db.execSQL("DROP TABLE world_heritage");
+			db.execSQL("DROP TABLE list");
+			db.execSQL("DROP TABLE ranking");
+			db.execSQL("DROP TABLE world_heritage_image");
+			db.execSQL("DROP TABLE quiz");
+			db.execSQL("DROP TABLE character");
+			db.execSQL("DROP TABLE evolution_state");
+			onCreate(db);
+		} catch (Exception e) {
+			// TODO: handle exception
+
+		} finally {
+			db.endTransaction();
+		}
+
 	}
 
 }
