@@ -37,7 +37,7 @@ public class DBManager extends SQLiteOpenHelper {
 
 			db.execSQL("CREATE TABLE IF NOT EXISTS "
 					+ "world_heritage(world_heritage_id INTEGER PRIMARY KEY AUTOINCREMENT, "
-					+ "world_heritage_name TEXT, explanation TEXT, world_heritage_image_id INTEGER, "
+					+ "world_heritage_name TEXT, explanation TEXT, world_heritage_image_path TEXT, "
 					+ "area TEXT, location TEXT, climate TEXT, clothes TEXT)");
 
 			db.execSQL("CREATE TABLE IF NOT EXISTS "
@@ -49,13 +49,9 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "world_heritage_id INTEGER, explanation TEXT)");
 
 			db.execSQL("CREATE TABLE IF NOT EXISTS "
-					+ "world_heritage_image(world_heritage_image_id INTEGER PRIMARY KEY AUTOINCREMENT, "
-					+ "world_heritage_image BLOB)");
-
-			db.execSQL("CREATE TABLE IF NOT EXISTS "
 					+ "quiz(quiz_id INTEGER PRIMARY KEY AUTOINCREMENT, problem TEXT, selection_one TEXT, "
 					+ "selection_two TEXT, selection_three TEXT, selection_four TEXT, answer TEXT, "
-					+ "explanation TEXT, world_heritage_image_id INTEGER)");
+					+ "explanation TEXT, world_heritage_image_path TEXT)");
 
 			db.execSQL("CREATE TABLE IF NOT EXISTS "
 					+ "character(character_id INTEGER PRIMARY KEY AUTOINCREMENT, character_image BLOB, "
@@ -87,10 +83,12 @@ public class DBManager extends SQLiteOpenHelper {
 			db.execSQL("DROP TABLE world_heritage");
 			db.execSQL("DROP TABLE list");
 			db.execSQL("DROP TABLE ranking");
-			db.execSQL("DROP TABLE world_heritage_image");
 			db.execSQL("DROP TABLE quiz");
 			db.execSQL("DROP TABLE character");
 			db.execSQL("DROP TABLE evolution_state");
+
+			db.setTransactionSuccessful();
+
 			onCreate(db);
 		} catch (Exception e) {
 			// TODO: handle exception
