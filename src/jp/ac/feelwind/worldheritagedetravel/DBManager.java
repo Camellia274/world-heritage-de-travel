@@ -32,34 +32,47 @@ public class DBManager extends SQLiteOpenHelper {
 		db.beginTransaction();
 
 		try {
+			//テーブル作成
+			//ユーザテーブル
 			db.execSQL("CREATE TABLE IF NOT EXISTS "
 					+ "user(user_id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, total_point INTEGER)");
 
+			//世界遺産テーブル
 			db.execSQL("CREATE TABLE IF NOT EXISTS "
 					+ "world_heritage(world_heritage_id INTEGER PRIMARY KEY AUTOINCREMENT, "
 					+ "world_heritage_name TEXT, explanation TEXT, world_heritage_image_path TEXT, "
 					+ "area TEXT, location TEXT, climate TEXT, clothes TEXT)");
 
+			//リストテーブル
 			db.execSQL("CREATE TABLE IF NOT EXISTS "
 					+ "list(list_id INTEGER PRIMARY KEY AUTOINCREMENT, world_heritage_id INTEGER, "
 					+ "have_been_to TEXT, want_to_go TEXT)");
 
+			//ランキングテーブル
 			db.execSQL("CREATE TABLE IF NOT EXISTS "
 					+ "ranking(ranking_id INTEGER PRIMARY KEY AUTOINCREMENT, ranking INTEGER, "
 					+ "world_heritage_id INTEGER, explanation TEXT)");
 
+			//クイズテーブル
 			db.execSQL("CREATE TABLE IF NOT EXISTS "
 					+ "quiz(quiz_id INTEGER PRIMARY KEY AUTOINCREMENT, problem TEXT, selection_one TEXT, "
 					+ "selection_two TEXT, selection_three TEXT, selection_four TEXT, answer TEXT, "
 					+ "explanation TEXT, world_heritage_image_path TEXT)");
 
+			//キャラクターテーブル
 			db.execSQL("CREATE TABLE IF NOT EXISTS "
 					+ "character(character_id INTEGER PRIMARY KEY AUTOINCREMENT, character_image BLOB, "
 					+ "character_name TEXT)");
 
+			//キャラ進化テーブル
 			db.execSQL("CREATE TABLE IF NOT EXISTS "
 					+ "evolution_state(evolution_state_id INTEGER PRIMARY KEY AUTOINCREMENT, "
 					+ "character_id INTEGER)");
+
+			//データ挿入
+			//クイズテーブル
+			db.execSQL("INSERT INTO quiz "
+					+ "VALUES(null, 問題, 選択1, 選択2, 選択3, 選択4, 答え, 解説, 画像パス)");
 
 			db.setTransactionSuccessful();
 		} catch (Exception e) {
@@ -99,4 +112,8 @@ public class DBManager extends SQLiteOpenHelper {
 
 	}
 
+	/*public void defaultInsert(SQLiteDatabase db){
+		String sql = "INSERT INTO () VALUES()";
+		db.execSQL(sql);
+	}*/
 }
