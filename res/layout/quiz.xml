@@ -15,30 +15,30 @@
         android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="240dp"
-        android:src="@drawable/アテネのアクロポリス" />
+        android:src="@drawable/akuroporisu" />
 
     <RadioButton
         android:id="@+id/radioButton1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="リトミシュル城" />
 
     <RadioButton
         android:id="@+id/radioButton2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="アテナイのアクロポリス" />
 
     <RadioButton
         android:id="@+id/radioButton3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="ヴルコリニェツ" />
 
     <RadioButton
         android:id="@+id/radioButton4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="スクーグシュルコゴーデン" />
 
     <ImageView
