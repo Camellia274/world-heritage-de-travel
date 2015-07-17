@@ -81,7 +81,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "王政の象徴的建造物ともいわれる。ルイ14世をはじめとした王族と、その臣下が共に住むヴェルサ"
 					+ "イユ宮殿においては、生活のすべてが絶対王政の実現のために利用され、その結果さまざまなルー"
 					+ "ル、エチケット、マナーが生まれた。");
-			values1.put("world_heritage_image_path", "@drawable/isan_europe1_verusaiyu.jpg");
+			values1.put("world_heritage_image_path", "@drawable/isan_europe1_verusaiyu");
 			values1.put("area", "ヨーロッパ1");
 			db.insert("quiz", null, values1);
 
