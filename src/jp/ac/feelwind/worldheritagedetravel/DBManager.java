@@ -5,6 +5,7 @@ package jp.ac.feelwind.worldheritagedetravel;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.sqlite.SQLiteCursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -808,5 +809,19 @@ public class DBManager extends SQLiteOpenHelper {
 
 	}
 
+	//ヨーロッパ1クイズ問題
+	public String selectEurope1Quiz(SQLiteDatabase db){
+		String result = null;
+		String select = "SELECT problem, selection_one, selection_two, selection_three, selection_four, "
+				+ "world_heritage_image_path FROM quiz WHERE area = ?";
+
+		SQLiteCursor cursor =(SQLiteCursor)db.rawQuery(select, null);
+		if(cursor.getCount() != 0){
+			cursor.moveToFirst();
+			result = cursor.getString(1);
+		}
+		cursor.close();
+		return result;
+	}
 
 }
