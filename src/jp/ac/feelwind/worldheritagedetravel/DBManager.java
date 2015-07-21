@@ -331,7 +331,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "アジア・中東");
-			db.insert("quiz", null, values20);
+			db.insert("quiz", null, values21);
 
 			ContentValues values22 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -343,7 +343,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "アジア・中東");
-			db.insert("quiz", null, values20);
+			db.insert("quiz", null, values22);
 
 			ContentValues values23 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -355,7 +355,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "アジア・中東");
-			db.insert("quiz", null, values20);
+			db.insert("quiz", null, values23);
 
 			ContentValues values24 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -367,7 +367,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "アジア・中東");
-			db.insert("quiz", null, values20);
+			db.insert("quiz", null, values24);
 
 			ContentValues values25 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -379,7 +379,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "アジア・中東");
-			db.insert("quiz", null, values20);
+			db.insert("quiz", null, values25);
 
 			ContentValues values26 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -391,7 +391,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "アジア・中東");
-			db.insert("quiz", null, values20);
+			db.insert("quiz", null, values26);
 
 			ContentValues values27 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -403,7 +403,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "アジア・中東");
-			db.insert("quiz", null, values20);
+			db.insert("quiz", null, values27);
 
 			ContentValues values28 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -415,7 +415,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "アジア・中東");
-			db.insert("quiz", null, values20);
+			db.insert("quiz", null, values28);
 
 			ContentValues values29 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -427,7 +427,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "アジア・中東");
-			db.insert("quiz", null, values20);
+			db.insert("quiz", null, values29);
 
 			ContentValues values30 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -439,7 +439,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "アジア・中東");
-			db.insert("quiz", null, values20);
+			db.insert("quiz", null, values30);
 
 			ContentValues values31 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -451,6 +451,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "オセアニア");
+			db.insert("quiz", null, values31);
 
 			ContentValues values32 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -462,6 +463,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "オセアニア");
+			db.insert("quiz", null, values32);
 
 			ContentValues values33 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -473,6 +475,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "オセアニア");
+			db.insert("quiz", null, values33);
 
 			ContentValues values34 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -484,6 +487,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "オセアニア");
+			db.insert("quiz", null, values34);
 
 			ContentValues values35 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -495,6 +499,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "オセアニア");
+			db.insert("quiz", null, values35);
 
 			ContentValues values36 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -506,6 +511,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "オセアニア");
+			db.insert("quiz", null, values36);
 
 			ContentValues values37 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -517,6 +523,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "オセアニア");
+			db.insert("quiz", null, values37);
 
 			ContentValues values38 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -528,6 +535,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "オセアニア");
+			db.insert("quiz", null, values38);
 
 			ContentValues values39 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -539,6 +547,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "オセアニア");
+			db.insert("quiz", null, values39);
 
 			ContentValues values40 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -550,6 +559,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "オセアニア");
+			db.insert("quiz", null, values40);
 
 			ContentValues values41 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -561,6 +571,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "アフリカ");
+			db.insert("quiz", null, values41);
 
 			ContentValues values42 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -572,6 +583,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "アフリカ");
+			db.insert("quiz", null, values42);
 
 			ContentValues values43 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -583,6 +595,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "アフリカ");
+			db.insert("quiz", null, values43);
 
 			ContentValues values44 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -594,6 +607,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "アフリカ");
+			db.insert("quiz", null, values44);
 
 			ContentValues values45 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -605,6 +619,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "アフリカ");
+			db.insert("quiz", null, values45);
 
 			ContentValues values46 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -616,6 +631,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "アフリカ");
+			db.insert("quiz", null, values46);
 
 			ContentValues values47 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -627,6 +643,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "アフリカ");
+			db.insert("quiz", null, values47);
 
 			ContentValues values48 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -638,6 +655,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "アフリカ");
+			db.insert("quiz", null, values48);
 
 			ContentValues values49 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -649,6 +667,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "アフリカ");
+			db.insert("quiz", null, values49);
 
 			ContentValues values50 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -660,6 +679,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "アフリカ");
+			db.insert("quiz", null, values50);
 
 			ContentValues values51 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -671,6 +691,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "北米・南米");
+			db.insert("quiz", null, values51);
 
 			ContentValues values52 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -682,6 +703,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "北米・南米");
+			db.insert("quiz", null, values52);
 
 			ContentValues values53 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -693,6 +715,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "北米・南米");
+			db.insert("quiz", null, values53);
 
 			ContentValues values54 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -704,6 +727,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "北米・南米");
+			db.insert("quiz", null, values54);
 
 			ContentValues values55 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -715,6 +739,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "北米・南米");
+			db.insert("quiz", null, values55);
 
 			ContentValues values56 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -726,6 +751,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "北米・南米");
+			db.insert("quiz", null, values56);
 
 			ContentValues values57 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -737,6 +763,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "北米・南米");
+			db.insert("quiz", null, values57);
 
 			ContentValues values58 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -748,6 +775,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "北米・南米");
+			db.insert("quiz", null, values58);
 
 			ContentValues values59 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -759,6 +787,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "北米・南米");
+			db.insert("quiz", null, values59);
 
 			ContentValues values60 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
@@ -770,6 +799,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "北米・南米");
+			db.insert("quiz", null, values60);
 			//db.setTransactionSuccessful();
 		} catch (Exception e) {
 			// TODO: handle exception
