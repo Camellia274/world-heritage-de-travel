@@ -843,7 +843,10 @@ public class DBManager extends SQLiteOpenHelper {
 	public String selectEurope1Quiz(SQLiteDatabase db){
 		String result = null;
 		String select = "SELECT problem, selection_one, selection_two, selection_three, selection_four, "
-				+ "world_heritage_image_path FROM quiz WHERE area = ?";
+						+ "world_heritage_image_path "
+						+ "FROM quiz "
+						+ "WHERE area = ヨーロッパ1 "
+						+ "ORDER BY RANDOM()";
 
 		SQLiteCursor cursor =(SQLiteCursor)db.rawQuery(select, null);
 		if(cursor.getCount() != 0){
