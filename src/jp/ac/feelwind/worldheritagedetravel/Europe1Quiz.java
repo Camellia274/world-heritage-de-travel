@@ -1,35 +1,32 @@
-/**
- *
- */
 package jp.ac.feelwind.worldheritagedetravel;
 
 import android.app.Activity;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.view.View;
-import android.view.View.OnClickListener;
 
-/**
- * @author student
- *
- */
-public class TiikiQuiz extends Activity implements OnClickListener{
+public class Europe1Quiz extends Activity {
+	private SQLiteDatabase sqlDB;
+	DBManager dbm;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO 自動生成されたメソッド・スタブ
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.areaselect);
+		setContentView(R.layout.quiz);
 	}
 
 	@Override
 	protected void onResume() {
 		// TODO 自動生成されたメソッド・スタブ
 		super.onResume();
+		dbm =new DBManager(this);
+		sqlDB = dbm.getWritableDatabase();
 	}
 
 	@Override
-	public void onClick(View v) {
+	protected void onPause() {
 		// TODO 自動生成されたメソッド・スタブ
-
+		super.onPause();
+		sqlDB.close();
 	}
-
 }
