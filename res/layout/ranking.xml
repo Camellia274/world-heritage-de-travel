@@ -48,7 +48,7 @@
         android:textSize="40dp" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageViewEurope2"
         android:layout_width="wrap_content"
         android:layout_height="135dp"
         android:src="@drawable/matyupityu" />
@@ -62,7 +62,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageViewAsiaMiddleEast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

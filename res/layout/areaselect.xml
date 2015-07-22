@@ -13,37 +13,37 @@
         android:textSize="25sp" />
 
     <ImageView
-        android:id="@+id/checktop"
+        android:id="@+id/imageViewEurope1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/yoroppa1" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageViewEurope2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/yoroppa2" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageViewAsiaMiddleEast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/asia" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imageViewAfrica"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/africa" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/imageViewOceania"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/oseania" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/imageViewNorthAmericaSouthAmerica"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/hokubei_nanbei" />
