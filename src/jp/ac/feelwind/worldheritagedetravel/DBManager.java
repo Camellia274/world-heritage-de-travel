@@ -103,11 +103,11 @@ public class DBManager extends SQLiteOpenHelper {
 
 			ContentValues values3 = new ContentValues();
 			values3.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
-			values3.put("selection_one", "ノートルダム大聖堂");
-			values3.put("selection_two", "アボメイの王宮群");
-			values3.put("selection_three", "ロレンツ国立公園");
-			values3.put("selection_four", "上都（ザナドゥ）の遺跡");
-			values3.put("answer", "ノートルダム大聖堂");
+			values3.put("selection_one", "サンタ・マリア教会");
+			values3.put("selection_two", "日光の社寺");
+			values3.put("selection_three", "古都ビガン");
+			values3.put("selection_four", "デル・モンテ城");
+			values3.put("answer", "サンタ・マリア教会");
 			values3.put("explanation", "パリのノートルダム大聖堂（Cathédrale Notre-Dame de Paris、ノートルダム寺"
 					+ "院とも） はゴシック建築を代表する建物であり、フランス、パリのシテ島にあるローマ・カトリッ"
 					+ "ク教会の大聖堂。「パリのセーヌ河岸」という名称で、周辺の文化遺産とともに1991年にユネスコ"
@@ -119,11 +119,11 @@ public class DBManager extends SQLiteOpenHelper {
 
 			ContentValues values4 = new ContentValues();
 			values4.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
-			values4.put("selection_one", "");
-			values4.put("selection_two", "");
-			values4.put("selection_three", "");
-			values4.put("selection_four", "");
-			values4.put("answer", "");
+			values4.put("selection_one", "ウィーン歴史地区");
+			values4.put("selection_two", "コルフ旧市街");
+			values4.put("selection_three", "パラマリボ市街歴史地区");
+			values4.put("selection_four", "ヴェネツィアとその潟");
+			values4.put("answer", "ヴェネツィアとその潟");
 			values4.put("explanation", "");
 			values4.put("world_heritage_image_path", "");
 			values4.put("area", "ヨーロッパ1");
@@ -131,11 +131,11 @@ public class DBManager extends SQLiteOpenHelper {
 
 			ContentValues values5 = new ContentValues();
 			values5.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
-			values5.put("selection_one", "");
-			values5.put("selection_two", "");
-			values5.put("selection_three", "");
-			values5.put("selection_four", "");
-			values5.put("answer", "");
+			values5.put("selection_one", "チャン・チャン遺跡地帯");
+			values5.put("selection_two", "フレーザー島");
+			values5.put("selection_three", "アムステルダムの運河");
+			values5.put("selection_four", "カピバラ山地国立公園");
+			values5.put("answer", "アムステルダムの運河");
 			values5.put("explanation", "");
 			values5.put("world_heritage_image_path", "");
 			values5.put("area", "ヨーロッパ1");
@@ -143,11 +143,11 @@ public class DBManager extends SQLiteOpenHelper {
 
 			ContentValues values6 = new ContentValues();
 			values6.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
-			values6.put("selection_one", "");
-			values6.put("selection_two", "");
-			values6.put("selection_three", "");
-			values6.put("selection_four", "");
-			values6.put("answer", "");
+			values6.put("selection_one", "リトミシュル城");
+			values6.put("selection_two", "スクーグシュルコゴーデン");
+			values6.put("selection_three", "ヴルコリニェツ");
+			values6.put("selection_four", "アテナイのアクロポリス");
+			values6.put("answer", "アテナイのアクロポリス");
 			values6.put("explanation", "");
 			values6.put("world_heritage_image_path", "");
 			values6.put("area", "ヨーロッパ1");
@@ -155,11 +155,11 @@ public class DBManager extends SQLiteOpenHelper {
 
 			ContentValues values7 = new ContentValues();
 			values7.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
-			values7.put("selection_one", "");
-			values7.put("selection_two", "");
-			values7.put("selection_three", "");
-			values7.put("selection_four", "");
-			values7.put("answer", "");
+			values7.put("selection_one", "サグラダ・ファミリア");
+			values7.put("selection_two", "昌徳宮");
+			values7.put("selection_three", "古都ビガン");
+			values7.put("selection_four", "クロンボー城");
+			values7.put("answer", "サグラダ・ファミリア");
 			values7.put("explanation", "");
 			values7.put("world_heritage_image_path", "");
 			values7.put("area", "ヨーロッパ1");
@@ -167,11 +167,11 @@ public class DBManager extends SQLiteOpenHelper {
 
 			ContentValues values8 = new ContentValues();
 			values8.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
-			values8.put("selection_one", "");
-			values8.put("selection_two", "");
-			values8.put("selection_three", "");
-			values8.put("selection_four", "");
-			values8.put("answer", "");
+			values8.put("selection_one", "凱旋門");
+			values8.put("selection_two", "アシャンティの建築物群");
+			values8.put("selection_three", "エルビル城塞");
+			values8.put("selection_four", "ケルン大聖堂");
+			values8.put("answer", "ケルン大聖堂");
 			values8.put("explanation", "");
 			values8.put("world_heritage_image_path", "");
 			values8.put("area", "ヨーロッパ1");
@@ -179,11 +179,11 @@ public class DBManager extends SQLiteOpenHelper {
 
 			ContentValues values9 = new ContentValues();
 			values9.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
-			values9.put("selection_one", "");
-			values9.put("selection_two", "");
-			values9.put("selection_three", "");
-			values9.put("selection_four", "");
-			values9.put("answer", "");
+			values9.put("selection_one", "ブルー・マウンテンズ");
+			values9.put("selection_two", "アルタのロックアート");
+			values9.put("selection_three", "グラン・プレの景観");
+			values9.put("selection_four", "ビソトゥーン");
+			values9.put("answer", "アルタのロックアート");
 			values9.put("explanation", "");
 			values9.put("world_heritage_image_path", "");
 			values9.put("area", "ヨーロッパ1");
@@ -191,11 +191,11 @@ public class DBManager extends SQLiteOpenHelper {
 
 			ContentValues values10 = new ContentValues();
 			values10.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
-			values10.put("selection_one", "");
-			values10.put("selection_two", "");
-			values10.put("selection_three", "");
-			values10.put("selection_four", "");
-			values10.put("answer", "");
+			values10.put("selection_one", "チャコ文化");
+			values10.put("selection_two", "ウェストミンスター宮殿");
+			values10.put("selection_three", "セント・キルダ");
+			values10.put("selection_four", "レブカ歴史的港町");
+			values10.put("answer", "ウェストミンスター宮殿");
 			values10.put("explanation", "");
 			values10.put("world_heritage_image_path", "");
 			values10.put("area", "ヨーロッパ1");
@@ -203,11 +203,11 @@ public class DBManager extends SQLiteOpenHelper {
 
 			ContentValues values11 = new ContentValues();
 			values11.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
-			values11.put("selection_one", "");
-			values11.put("selection_two", "");
-			values11.put("selection_three", "");
-			values11.put("selection_four", "");
-			values11.put("answer", "");
+			values11.put("selection_one", "ストーンヘンジ");
+			values11.put("selection_two", "モンバサのジーザス要塞");
+			values11.put("selection_three", "マルペロの動植物保護区");
+			values11.put("selection_four", "スカン・グアイ");
+			values11.put("answer", "ストーンヘンジ");
 			values11.put("explanation", "");
 			values11.put("world_heritage_image_path", "");
 			values11.put("area", "ヨーロッパ2");
@@ -215,11 +215,11 @@ public class DBManager extends SQLiteOpenHelper {
 
 			ContentValues values12 = new ContentValues();
 			values12.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
-			values12.put("selection_one", "");
-			values12.put("selection_two", "");
-			values12.put("selection_three", "");
-			values12.put("selection_four", "");
-			values12.put("answer", "");
+			values12.put("selection_one", "ローマ帝国の国境線");
+			values12.put("selection_two", "古都セントジョージ");
+			values12.put("selection_three", "タスマニア原生地域");
+			values12.put("selection_four", "アッコ旧市街");
+			values12.put("answer", "古都セントジョージ");
 			values12.put("explanation", "");
 			values12.put("world_heritage_image_path", "");
 			values12.put("area", "ヨーロッパ2");
@@ -227,11 +227,11 @@ public class DBManager extends SQLiteOpenHelper {
 
 			ContentValues values13 = new ContentValues();
 			values13.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
-			values13.put("selection_one", "");
-			values13.put("selection_two", "");
-			values13.put("selection_three", "");
-			values13.put("selection_four", "");
-			values13.put("answer", "");
+			values13.put("selection_one", "ガンメルスタードの教会街");
+			values13.put("selection_two", "パンタナル保全地域");
+			values13.put("selection_three", "承徳の避暑山荘と外八廟");
+			values13.put("selection_four", "コルドバ歴史地区 ");
+			values13.put("answer", "コルドバ歴史地区 ");
 			values13.put("explanation", "");
 			values13.put("world_heritage_image_path", "");
 			values13.put("area", "ヨーロッパ2");
@@ -239,11 +239,11 @@ public class DBManager extends SQLiteOpenHelper {
 
 			ContentValues values14 = new ContentValues();
 			values14.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
-			values14.put("selection_one", "");
-			values14.put("selection_two", "");
-			values14.put("selection_three", "");
-			values14.put("selection_four", "");
-			values14.put("answer", "");
+			values14.put("selection_one", "メテオラ");
+			values14.put("selection_two", "コインブラ大学－アルタとソフィア");
+			values14.put("selection_three", "インドの山岳鉄道群");
+			values14.put("selection_four", "ヴェズレーの教会と丘");
+			values14.put("answer", "メテオラ");
 			values14.put("explanation", "");
 			values14.put("world_heritage_image_path", "");
 			values14.put("area", "ヨーロッパ2");
@@ -251,11 +251,11 @@ public class DBManager extends SQLiteOpenHelper {
 
 			ContentValues values15 = new ContentValues();
 			values15.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
-			values15.put("selection_one", "");
-			values15.put("selection_two", "");
-			values15.put("selection_three", "");
-			values15.put("selection_four", "");
-			values15.put("answer", "");
+			values15.put("selection_one", "イルリサット・アイスフィヨルド");
+			values15.put("selection_two", "ティヴォリのエステ家別荘");
+			values15.put("selection_three", "カホキア墳丘群州立史跡");
+			values15.put("selection_four", "ヘラクレスの塔");
+			values15.put("answer", "ヘラクレスの塔");
 			values15.put("explanation", "");
 			values15.put("world_heritage_image_path", "");
 			values15.put("area", "ヨーロッパ2");
@@ -263,11 +263,11 @@ public class DBManager extends SQLiteOpenHelper {
 
 			ContentValues values16 = new ContentValues();
 			values16.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
-			values16.put("selection_one", "");
-			values16.put("selection_two", "");
-			values16.put("selection_three", "");
-			values16.put("selection_four", "");
-			values16.put("answer", "");
+			values16.put("selection_one", "ブリッゲン");
+			values16.put("selection_two", "モン・サン＝ミシェル");
+			values16.put("selection_three", "イビサ、生物多様性と文化");
+			values16.put("selection_four", "東デヴォン海岸");
+			values16.put("answer", "モン・サン＝ミシェル");
 			values16.put("explanation", "");
 			values16.put("world_heritage_image_path", "");
 			values16.put("area", "ヨーロッパ2");
@@ -275,11 +275,11 @@ public class DBManager extends SQLiteOpenHelper {
 
 			ContentValues values17 = new ContentValues();
 			values17.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
-			values17.put("selection_one", "");
-			values17.put("selection_two", "");
-			values17.put("selection_three", "");
-			values17.put("selection_four", "");
-			values17.put("answer", "");
+			values17.put("selection_one", "リヨン歴史地区");
+			values17.put("selection_two", "セビージャの大聖堂");
+			values17.put("selection_three", "ポンペイ");
+			values17.put("selection_four", "スルツエイ");
+			values17.put("answer", "ポンペイ");
 			values17.put("explanation", "");
 			values17.put("world_heritage_image_path", "");
 			values17.put("area", "ヨーロッパ2");
@@ -287,11 +287,11 @@ public class DBManager extends SQLiteOpenHelper {
 
 			ContentValues values18 = new ContentValues();
 			values18.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
-			values18.put("selection_one", "");
-			values18.put("selection_two", "");
-			values18.put("selection_three", "");
-			values18.put("selection_four", "");
-			values18.put("answer", "");
+			values18.put("selection_one", "ワッデン海");
+			values18.put("selection_two", "プリトヴィッチェ湖群国立公園");
+			values18.put("selection_three", "アマルフィ海岸");
+			values18.put("selection_four", "ヘッド-スマッシュト-イン・バッファロー・ジャンプ");
+			values18.put("answer", "アマルフィ海岸");
 			values18.put("explanation", "");
 			values18.put("world_heritage_image_path", "");
 			values18.put("area", "ヨーロッパ2");
@@ -299,11 +299,11 @@ public class DBManager extends SQLiteOpenHelper {
 
 			ContentValues values19 = new ContentValues();
 			values19.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
-			values19.put("selection_one", "");
-			values19.put("selection_two", "");
-			values19.put("selection_three", "");
-			values19.put("selection_four", "");
-			values19.put("answer", "");
+			values19.put("selection_one", "サン・クリストバル・デ・ラ・ラグナ");
+			values19.put("selection_two", "高句麗古墳群");
+			values19.put("selection_three", "峨眉山と楽山大仏");
+			values19.put("selection_four", "ラポニアン・エリア");
+			values19.put("answer", "ラポニアン・エリア");
 			values19.put("explanation", "");
 			values19.put("world_heritage_image_path", "");
 			values19.put("area", "ヨーロッパ2");
@@ -311,11 +311,11 @@ public class DBManager extends SQLiteOpenHelper {
 
 			ContentValues values20 = new ContentValues();
 			values20.put("problem", "この画像の世界遺産の名前は、なんでしょう？");
-			values20.put("selection_one", "");
-			values20.put("selection_two", "");
-			values20.put("selection_three", "");
-			values20.put("selection_four", "");
-			values20.put("answer", "");
+			values20.put("selection_one", "Ir.D.F.ヴァウダヘマール");
+			values20.put("selection_two", "オカピ野生生物保護区");
+			values20.put("selection_three", "頤和園、北京の皇帝の庭園");
+			values20.put("selection_four", "バチカン市国");
+			values20.put("answer", "バチカン市国");
 			values20.put("explanation", "");
 			values20.put("world_heritage_image_path", "");
 			values20.put("area", "ヨーロッパ2");
