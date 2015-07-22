@@ -39,7 +39,6 @@ public class TiikiQuiz extends Activity implements OnClickListener{
 		oceania.setOnClickListener(this);
 		ImageView northAmericaSouthAmerica = (ImageView)findViewById(R.id.imageViewNorthAmericaSouthAmerica);
 		northAmericaSouthAmerica.setOnClickListener(this);
-
 	}
 
 	@Override
