@@ -33,6 +33,10 @@
 		<activity android:name=".TiikiQuiz" android:label="@string/app_name"></activity>
 		<activity android:name=".Europe1Quiz" android:label="@string/app_name"></activity>
 		<activity android:name=".Europe2Quiz" android:label="@string/app_name"></activity>
+		<activity android:name=".AsiaMiddleEastQuiz" android:label="@string/app_name"></activity>
+		<activity android:name=".AfricaQuiz" android:label="@string/app_name"></activity>
+		<activity android:name=".OceaniaQuiz" android:label="@string/app_name"></activity>
+		<activity android:name=".NorthAmericaSouthAmericaQuiz" android:label="@string/app_name"></activity>
 
     </application>
 

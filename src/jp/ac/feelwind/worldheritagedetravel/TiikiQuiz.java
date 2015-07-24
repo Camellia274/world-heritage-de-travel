@@ -55,19 +55,19 @@ public class TiikiQuiz extends Activity implements OnClickListener{
 				break;
 
 			case R.id.imageViewAsiaMiddleEast:
-				intent = new Intent(TiikiQuiz.this,Europe1Quiz.class);
+				intent = new Intent(TiikiQuiz.this,AsiaMiddleEastQuiz.class);
 				break;
 
 			case R.id.imageViewAfrica:
-				intent = new Intent(TiikiQuiz.this,Europe1Quiz.class);
+				intent = new Intent(TiikiQuiz.this,AfricaQuiz.class);
 				break;
 
 			case R.id.imageViewOceania:
-				intent = new Intent(TiikiQuiz.this,Europe1Quiz.class);
+				intent = new Intent(TiikiQuiz.this,OceaniaQuiz.class);
 				break;
 
 			case R.id.imageViewNorthAmericaSouthAmerica:
-				intent = new Intent(TiikiQuiz.this,Europe1Quiz.class);
+				intent = new Intent(TiikiQuiz.this,NorthAmericaSouthAmericaQuiz.class);
 				break;
 		}
 		startActivity(intent);
