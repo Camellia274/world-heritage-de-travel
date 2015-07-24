@@ -1099,7 +1099,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values60.put("selection_three", "ドナウ・デルタ");
 			values60.put("selection_four", "シギショアラ歴史地区");
 			values60.put("answer", "ポトシ市街");
-			values60.put("explanation", "ポトシ（スペイン語: Potosí"シ"にアクセント）は、ボリビアの南部にある都市。"
+			values60.put("explanation", "ポトシ（スペイン語: Potosí'シ'にアクセント）は、ボリビアの南部にある都市。"
 					+ "ポトシ県の行政府所在地。ボリビアの首都ラパスから南東に約 440 km に位置する。アンデス山脈中の"
 					+ "盆地にあり、標高約 4,000 mと人が住む都市としては世界最高地点である。高山地域のうえ乾燥気候で"
 					+ "あるために植生には乏しい。インディオの特徴を強く持つ人が多く、チョリータが多い。ケチュア語を"
