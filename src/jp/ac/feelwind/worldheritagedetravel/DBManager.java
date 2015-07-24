@@ -109,11 +109,12 @@ public class DBManager extends SQLiteOpenHelper {
 			values3.put("selection_three", "古都ビガン");
 			values3.put("selection_four", "デル・モンテ城");
 			values3.put("answer", "サンタ・マリア教会");
-			values3.put("explanation", "パリのノートルダム大聖堂（Cathédrale Notre-Dame de Paris、ノートルダム寺"
-					+ "院とも） はゴシック建築を代表する建物であり、フランス、パリのシテ島にあるローマ・カトリッ"
-					+ "ク教会の大聖堂。「パリのセーヌ河岸」という名称で、周辺の文化遺産とともに1991年にユネスコ"
-					+ "の世界遺産に登録された。現在もノートルダム大聖堂は、パリ大司教座聖堂として使用されている"
-					+ "。ノートルダムとはフランス語で「我らが貴婦人」すなわち聖母マリアを指す。");
+			values3.put("explanation", "1296年、アルノルフォ・デ・カンピオの設計により大聖堂を取り壊して着工し、"
+					+ "ジョット、フランチェスコ・タランティらが造営主任をつとめる。以降、ミラノ公フランチェスコ・ス"
+					+ "フォルツァがドミニコ修道院と教会の建設を指示し、建築家ソラーリによって長い年月をかけ1469年に"
+					+ "完成した。教会のアプスは1492年以降、ドナト・ブラマンテにより改築されたものとされる（明白な証"
+					+ "拠はない、という指摘もある）。当時ブラマンテはミラノに居住しており、教会の歴史書のなかにも一"
+					+ "度登場している。");
 			values3.put("world_heritage_image_path", "画像のパス");
 			values3.put("area", "ヨーロッパ1");
 			db.insert("quiz", null, values3);
@@ -125,7 +126,14 @@ public class DBManager extends SQLiteOpenHelper {
 			values4.put("selection_three", "パラマリボ市街歴史地区");
 			values4.put("selection_four", "ウィーン歴史地区");
 			values4.put("answer", "ヴェネツィアとその潟");
-			values4.put("explanation", "");
+			values4.put("explanation", "ヴェネツィアは、5世紀頃、ゲルマン族の進入から逃れるために、当時湿地帯であっ"
+					+ "た場所に街を作ったのが始まりといわれている。その後、海洋貿易での立国を目指した。十字軍の遠征"
+					+ "による権益の拡大、ジェノヴァ共和国との戦争で繁栄は最高潮を迎えた。また、ルネッサンス時代"
+					+ "には、ヴェネツィア派と呼ばれる画家を輩出した。アドリア海の女王とうたわれたヴェネツィアも他の"
+					+ "ヨーロッパ諸国が地中海貿易に進出するに至った上に、大航海時代が始まり、アメリカ大陸や日本の発"
+					+ "見などによって貿易の中心が大西洋や太平洋といった外海に移った事によって衰退に向かう。18世紀に"
+					+ "は一年の半分をカーニバルで過ごす歓楽の都と化してしまった。"
+					+ "ヴェネツィアの街は100以上の島々が、およそ400の橋と150をこえる大小の運河で結ばれている。");
 			values4.put("world_heritage_image_path", "");
 			values4.put("area", "ヨーロッパ1");
 			db.insert("quiz", null, values4);
@@ -137,7 +145,13 @@ public class DBManager extends SQLiteOpenHelper {
 			values5.put("selection_three", "チャン・チャン遺跡地帯");
 			values5.put("selection_four", "カピバラ山地国立公園");
 			values5.put("answer", "アムステルダムの運河");
-			values5.put("explanation", "");
+			values5.put("explanation", "アムステルダムの運河システムの多くは、都市計画の優れた産物である。アムステ"
+					+ "ルダムは、オランダ独立戦争を境に没落していったアントウェルペンに代わり、16世紀末以降、国際的"
+					+ "な中継貿易の拠点となっていった。ヨーロッパ商業の変化に適応するとともに、ジェノヴァに代わって"
+					+ "国際的な金融市場の機能も備えて急成長したアムステルダムの人口は、3万（16世紀末）、10.5万（162"
+					+ "2年）、22万（1660年 - 1670年）と急増していった。そうして17世紀初頭に増大した移民に対応するこ"
+					+ "とと防衛上の観点から、アイ湾を終端とする4つの主要な半円状の運河を含む包括的な都市計画が立案"
+					+ "された。");
 			values5.put("world_heritage_image_path", "");
 			values5.put("area", "ヨーロッパ1");
 			db.insert("quiz", null, values5);
@@ -149,7 +163,12 @@ public class DBManager extends SQLiteOpenHelper {
 			values6.put("selection_three", "ヴルコリニェツ");
 			values6.put("selection_four", "リトミシュル城");
 			values6.put("answer", "アテナイのアクロポリス");
-			values6.put("explanation", "");
+			values6.put("explanation", "アテナイのアクロポリスは世界でもっともよく知られているアクロポリス(ギリシャ"
+					+ "語: akros, akron+ polis,)である。 ギリシャには多数のアクロポリスがあるが、アテナイのアクロポ"
+					+ "リスは一般的に「アクロポリス」で通じる点に意義がある。2007年3月26日、アクロポリスは正式にヨー"
+					+ "ロッパの文化遺産リストに卓越した遺産として発表された。このアクロポリスはアテネの海抜150 m (49"
+					+ "0 ft)の平らな岩の上に立っており、3ヘクタールの面積がある。 最初のアテナイの王ケクロプスにちな"
+					+ "んだCecropiaという名でも知られていた。");
 			values6.put("world_heritage_image_path", "");
 			values6.put("area", "ヨーロッパ1");
 			db.insert("quiz", null, values6);
@@ -161,7 +180,16 @@ public class DBManager extends SQLiteOpenHelper {
 			values7.put("selection_three", "古都ビガン");
 			values7.put("selection_four", "クロンボー城");
 			values7.put("answer", "サグラダ・ファミリア");
-			values7.put("explanation", "");
+			values7.put("explanation", "サグラダ・ファミリアは、カタロニア・モダニズム建築の最も良く知られた作品例"
+					+ "であり、カタロニアの建築家アントニ・ガウディの未完作品である。バルセロナ市のシンボルであるこ"
+					+ "の建物は、綿密に構成された象徴詩的なシンボロジーと共に、パラボリックな（放物線状の）構造のア"
+					+ "ーチや、鐘楼に据えられた自然主義と抽象主義の混在する彫刻などで、大胆な建築様式を誇っている。"
+					+ "2004年の統計によれば、サグラダ・ファミリアはアルハンブラ宮殿やマドリッドのプラド美術館を抜い"
+					+ "てスペインで最も観光客を集めたモニュメントとなり、2008年には270万人を集めた。生前のガウディ"
+					+ "が実現できたのは地下聖堂と生誕のファサードなどであるが、これらは2005年にユネスコの世界遺産に"
+					+ "登録された。 贖罪教会なので、作業の財政は喜捨に頼っている。そのために、別々の箇所を同時に建設"
+					+ "することはできなかったのだが、1990年代以降は訪問者の流れと作品の世評の高まりが財政状況を好転"
+					+ "させた。");
 			values7.put("world_heritage_image_path", "");
 			values7.put("area", "ヨーロッパ1");
 			db.insert("quiz", null, values7);
@@ -173,7 +201,14 @@ public class DBManager extends SQLiteOpenHelper {
 			values8.put("selection_three", "エルビル城塞");
 			values8.put("selection_four", "凱旋門");
 			values8.put("answer", "ケルン大聖堂");
-			values8.put("explanation", "");
+			values8.put("explanation", "現存の大聖堂は3代目で、初代が完成したのは4世紀のことであった。正方形の建物"
+					+ "で、最も古い聖堂として知られていた。ナポレオン戦争の影響によりドイツでナショナリズムが高揚す"
+					+ "る中、中世ドイツに自民族の伝統を探し求める動きが強まった。建築ではゴシック・リヴァイヴァルの"
+					+ "潮流が強まり、建設途中であったケルン大聖堂に注目が集まったため、1842年に建設が再開され、もう"
+					+ "ひとつの塔の完成が急がれた。全てが完成したのは建設開始から600年以上が経過した1880年のことで"
+					+ "あり、高さが157mの大聖堂はアメリカのワシントン記念塔（高さ169m）が完成する1884年まで建築物と"
+					+ "しては世界一の高さを誇った。「皇帝の鐘」と称される鐘が南塔にとりつけられたが、第一次世界大戦"
+					+ "の際に接収され、溶かされたのちに武器として用いられた。");
 			values8.put("world_heritage_image_path", "");
 			values8.put("area", "ヨーロッパ1");
 			db.insert("quiz", null, values8);
@@ -185,7 +220,14 @@ public class DBManager extends SQLiteOpenHelper {
 			values9.put("selection_three", "グラン・プレの景観");
 			values9.put("selection_four", "ビソトゥーン");
 			values9.put("answer", "アルタのロックアート");
-			values9.put("explanation", "");
+			values9.put("explanation", "アルタの岩絵は、紀元前4200年から500年頃までに狩猟・漁撈民によって描かれた岩"
+					+ "面刻画および岩陰彫刻群で、花崗岩の岩盤の上に刻まれたものである。これまでにおよそ20 - 40cm大の"
+					+ "ものが5000点以上発見された。 北欧およびロシア北部に見られる極北美術の出土例の1つとなっている。"
+					+ "海岸線の隆起によって制作年代の古いものほど高い位置に、新しいものほど低い位置に描かれている。 "
+					+ "モチーフとなっているのは、トナカイをはじめ、ヘラジカ、クマなど北極圏に生息する動物たちとそれを"
+					+ "追って狩りをする人々、舟を出して魚を獲る人々などである。登録エリアのうち、最も大きなヒェメルフ"
+					+ "ト／イープマルオクタ地区（50.09ha）にある岩絵はアルタ博物館で一般公開されている。冬季は降雪に"
+					+ "より見ることができない。");
 			values9.put("world_heritage_image_path", "");
 			values9.put("area", "ヨーロッパ1");
 			db.insert("quiz", null, values9);
@@ -197,7 +239,10 @@ public class DBManager extends SQLiteOpenHelper {
 			values10.put("selection_three", "セント・キルダ");
 			values10.put("selection_four", "レブカ歴史的港町");
 			values10.put("answer", "ウェストミンスター宮殿");
-			values10.put("explanation", "");
+			values10.put("explanation", "ウェストミンスター宮殿（ウェストミンスターきゅうでん、英語：Palace of Westmin"
+					+ "ster）は、イギリスのロンドン中心部、テムズ川河畔に存在する宮殿。現在は英国議会が議事堂として使"
+					+ "用している。併設されている時計塔（ビッグ・ベン）と共にロンドンを代表する景色として挙げられる。"
+					+ "所在地はロンドンのミルバンク。なお近隣のテムズハウスは保安局（MI5）の本部となっている。");
 			values10.put("world_heritage_image_path", "");
 			values10.put("area", "ヨーロッパ1");
 			db.insert("quiz", null, values10);
