@@ -5,7 +5,9 @@ package jp.ac.feelwind.worldheritagedetravel;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;
@@ -15,6 +17,9 @@ import android.widget.ImageView;
  *
  */
 public class TiikiQuiz extends Activity implements OnClickListener{
+	private SQLiteDatabase sqlDB;
+	DBManager dbm;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO 自動生成されたメソッド・スタブ
@@ -26,6 +31,9 @@ public class TiikiQuiz extends Activity implements OnClickListener{
 	protected void onResume() {
 		// TODO 自動生成されたメソッド・スタブ
 		super.onResume();
+
+		dbm =new DBManager(this);
+		sqlDB = dbm.getWritableDatabase();
 
 		ImageView europe1 = (ImageView)findViewById(R.id.imageViewEurope1);
 		europe1.setOnClickListener(this);
@@ -47,6 +55,8 @@ public class TiikiQuiz extends Activity implements OnClickListener{
 		Intent intent = null;
 		switch (v.getId()) {
 			case R.id.imageViewEurope1:
+				String quiz = dbm.selectEurope1Quiz(sqlDB);
+				Log.v("log", quiz);
 				intent = new Intent(TiikiQuiz.this,Europe1Quiz.class);
 				break;
 
@@ -71,6 +81,13 @@ public class TiikiQuiz extends Activity implements OnClickListener{
 				break;
 		}
 		startActivity(intent);
+	}
+
+	@Override
+	protected void onPause() {
+		// TODO 自動生成されたメソッド・スタブ
+		super.onPause();
+		sqlDB.close();
 	}
 
 }
