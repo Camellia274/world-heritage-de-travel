@@ -98,7 +98,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "ク教会の大聖堂。「パリのセーヌ河岸」という名称で、周辺の文化遺産とともに1991年にユネスコ"
 					+ "の世界遺産に登録された。現在もノートルダム大聖堂は、パリ大司教座聖堂として使用されている"
 					+ "。ノートルダムとはフランス語で「我らが貴婦人」すなわち聖母マリアを指す。");
-			values2.put("world_heritage_image_path", "画像のパス");
+			values2.put("world_heritage_image_path", "@drawable/isan_europe1_notorudamu");
 			values2.put("area", "ヨーロッパ1");
 			db.insert("quiz", null, values2);
 
@@ -115,7 +115,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "完成した。教会のアプスは1492年以降、ドナト・ブラマンテにより改築されたものとされる（明白な証"
 					+ "拠はない、という指摘もある）。当時ブラマンテはミラノに居住しており、教会の歴史書のなかにも一"
 					+ "度登場している。");
-			values3.put("world_heritage_image_path", "画像のパス");
+			values3.put("world_heritage_image_path", "@drawable/isan_europe1_santa");
 			values3.put("area", "ヨーロッパ1");
 			db.insert("quiz", null, values3);
 
@@ -134,7 +134,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "見などによって貿易の中心が大西洋や太平洋といった外海に移った事によって衰退に向かう。18世紀に"
 					+ "は一年の半分をカーニバルで過ごす歓楽の都と化してしまった。"
 					+ "ヴェネツィアの街は100以上の島々が、およそ400の橋と150をこえる大小の運河で結ばれている。");
-			values4.put("world_heritage_image_path", "");
+			values4.put("world_heritage_image_path", "@drawable/isan_europe1_venetia");
 			values4.put("area", "ヨーロッパ1");
 			db.insert("quiz", null, values4);
 
@@ -152,7 +152,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "2年）、22万（1660年 - 1670年）と急増していった。そうして17世紀初頭に増大した移民に対応するこ"
 					+ "とと防衛上の観点から、アイ湾を終端とする4つの主要な半円状の運河を含む包括的な都市計画が立案"
 					+ "された。");
-			values5.put("world_heritage_image_path", "");
+			values5.put("world_heritage_image_path", "@drawable/isan_europe1_amusuterudamu");
 			values5.put("area", "ヨーロッパ1");
 			db.insert("quiz", null, values5);
 
@@ -169,7 +169,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "ロッパの文化遺産リストに卓越した遺産として発表された。このアクロポリスはアテネの海抜150 m (49"
 					+ "0 ft)の平らな岩の上に立っており、3ヘクタールの面積がある。 最初のアテナイの王ケクロプスにちな"
 					+ "んだCecropiaという名でも知られていた。");
-			values6.put("world_heritage_image_path", "");
+			values6.put("world_heritage_image_path", "@drawable/isan_europe1_akuroporisu");
 			values6.put("area", "ヨーロッパ1");
 			db.insert("quiz", null, values6);
 
@@ -190,7 +190,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "登録された。 贖罪教会なので、作業の財政は喜捨に頼っている。そのために、別々の箇所を同時に建設"
 					+ "することはできなかったのだが、1990年代以降は訪問者の流れと作品の世評の高まりが財政状況を好転"
 					+ "させた。");
-			values7.put("world_heritage_image_path", "");
+			values7.put("world_heritage_image_path", "@drawable/isan_europe1_sakurada");
 			values7.put("area", "ヨーロッパ1");
 			db.insert("quiz", null, values7);
 
@@ -209,7 +209,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "あり、高さが157mの大聖堂はアメリカのワシントン記念塔（高さ169m）が完成する1884年まで建築物と"
 					+ "しては世界一の高さを誇った。「皇帝の鐘」と称される鐘が南塔にとりつけられたが、第一次世界大戦"
 					+ "の際に接収され、溶かされたのちに武器として用いられた。");
-			values8.put("world_heritage_image_path", "");
+			values8.put("world_heritage_image_path", "@drawable/isan_europe1_kreunn");
 			values8.put("area", "ヨーロッパ1");
 			db.insert("quiz", null, values8);
 
@@ -228,7 +228,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "追って狩りをする人々、舟を出して魚を獲る人々などである。登録エリアのうち、最も大きなヒェメルフ"
 					+ "ト／イープマルオクタ地区（50.09ha）にある岩絵はアルタ博物館で一般公開されている。冬季は降雪に"
 					+ "より見ることができない。");
-			values9.put("world_heritage_image_path", "");
+			values9.put("world_heritage_image_path", "@drawable/isan_europe1_aruta");
 			values9.put("area", "ヨーロッパ1");
 			db.insert("quiz", null, values9);
 
@@ -243,7 +243,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "ster）は、イギリスのロンドン中心部、テムズ川河畔に存在する宮殿。現在は英国議会が議事堂として使"
 					+ "用している。併設されている時計塔（ビッグ・ベン）と共にロンドンを代表する景色として挙げられる。"
 					+ "所在地はロンドンのミルバンク。なお近隣のテムズハウスは保安局（MI5）の本部となっている。");
-			values10.put("world_heritage_image_path", "");
+			values10.put("world_heritage_image_path", "@drawable/isan_europe1_wesutominnsuta");
 			values10.put("area", "ヨーロッパ1");
 			db.insert("quiz", null, values10);
 
@@ -262,7 +262,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "リーの南ウィルトシャーに位置している先史時代の巨石建造物群である。登録面積は約 26 km² で、ス"
 					+ "トーンヘンジを中心としている。建造年代は紀元前3000年頃から大きく三期に分けられているが、建造目"
 					+ "的等は諸説あって確定していない。");
-			values11.put("world_heritage_image_path", "");
+			values11.put("world_heritage_image_path", "@drawable/");
 			values11.put("area", "ヨーロッパ2");
 			db.insert("quiz", null, values11);
 
@@ -285,7 +285,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "ア号から残った3人の男性たちと、後から60人の新たな植民者集団が加わり、隣のセント・デイヴィッズ島"
 					+ "での悲惨な時期の後、悪天候時には船を守っておける避難所となる入り江にセント・ジョージの建設"
 					+ "を始めた。");
-			values12.put("world_heritage_image_path", "");
+			values12.put("world_heritage_image_path", "@drawable/");
 			values12.put("area", "ヨーロッパ2");
 			db.insert("quiz", null, values12);
 
@@ -301,7 +301,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "後ウマイヤ朝時代、メスキータはモスクとして建てられ、市の中心であった。その後レコンキスタによ"
 					+ "りキリスト勢力が失地を回復すると、メスキータの一部は壊され、キリスト教会に改築された。メスキ"
 					+ "ータの窓などはイスラム装飾が残っている。ユダヤ人街の花の小径は有名。");
-			values13.put("world_heritage_image_path", "");
+			values13.put("world_heritage_image_path", "@drawable/");
 			values13.put("area", "ヨーロッパ2");
 			db.insert("quiz", null, values13);
 
@@ -316,7 +316,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "の奇岩群とその上に建設された修道院共同体、いわゆるメテオラ修道院群の総称である。その地形及びギ"
 					+ "リシア正教の修道院文化の価値からユネスコ世界遺産（文化・自然複合遺産）に指定されている。その名"
 					+ "はギリシア語で「中空の」を意味する「メテオロス」（μετέωρος）という言葉に由来している。");
-			values14.put("world_heritage_image_path", "");
+			values14.put("world_heritage_image_path", "@drawable/");
 			values14.put("area", "ヨーロッパ2");
 			db.insert("quiz", null, values14);
 
@@ -335,7 +335,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "ティウムの塔 (Farum Brigantium) の名で知られていた。1791年に改築工事が施されたものの、ローマ時"
 					+ "代に建築されてから既に約1,900年が経過しているにも関わらず、ヘラクレスの塔は21世紀になった今も"
 					+ "なお現役の灯台として利用されている。2009年6月27日、UNESCOの世界遺産に登録された。");
-			values15.put("world_heritage_image_path", "");
+			values15.put("world_heritage_image_path", "@drawable/");
 			values15.put("area", "ヨーロッパ2");
 			db.insert("quiz", null, values15);
 
@@ -352,6 +352,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "ルというコミューンを形成する。カトリックの巡礼地のひとつであり「西洋の驚異」と称され、1979年"
 					+ "「モン・サン＝ミシェルとその湾」としてユネスコの世界遺産（文化遺産）に登録され、1994年10月に"
 					+ "はラムサール条約登録地となった。");
+			values16.put("world_heritage_image_path", "@drawable/");
 			values16.put("area", "ヨーロッパ2");
 			db.insert("quiz", null, values16);
 
@@ -371,7 +372,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "街は19世紀末に建設されたもので、その中心部は古代ローマ時代のポンペイとは少し離れている。なお、"
 					+ "イタリア語での発音は e にアクセントがあるため、「ポンペーイ」に近い。古典ラテン語ではeと最後の"
 					+ "iが長母音なので、「ポンペーイイー」である。");
-			values17.put("world_heritage_image_path", "");
+			values17.put("world_heritage_image_path", "@drawable/");
 			values17.put("area", "ヨーロッパ2");
 			db.insert("quiz", null, values17);
 
@@ -388,7 +389,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "された。ヘラクレスが愛したニュンペーの名に由来した地名で「ヘラクレスはそのニュンペーと仲睦まじ"
 					+ "く暮らしていたが、ある日突然、彼女が死んでしまう。それを嘆いたヘラクレスはこの世でもっとも美し"
 					+ "い土地に彼女を葬り、街を切り開いて彼女の名を付けた」とされる。");
-			values18.put("world_heritage_image_path", "");
+			values18.put("world_heritage_image_path", "@drawable/");
 			values18.put("area", "ヨーロッパ2");
 			db.insert("quiz", null, values18);
 
@@ -406,7 +407,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "ラが見られるなんて是非とも行ってみたい場所の一つだ。アクセスはキルナからバスや車で向かう。キ"
 					+ "ルナへはストックフォルムから国内線が出ている。キルーナから約17km東のユッカスヤルヴィ村にはあ"
 					+ "の有名なアイスホテルもある。");
-			values19.put("world_heritage_image_path", "");
+			values19.put("world_heritage_image_path", "@drawable/");
 			values19.put("area", "ヨーロッパ2");
 			db.insert("quiz", null, values19);
 
@@ -423,7 +424,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "「バチカン」を参照のこと。バチカンはテベレ川の西側に位置し、カトリックの総本山として知られる。"
 					+ "前述のとおり、バチカン全域が世界遺産として登録されている。また、イタリアの世界遺産物件であるロ"
 					+ "ーマ歴史地区、教皇領とサン・パオロ・フオーリ・レ・ムーラ大聖堂と隣接している。");
-			values20.put("world_heritage_image_path", "");
+			values20.put("world_heritage_image_path", "@drawable/");
 			values20.put("area", "ヨーロッパ2");
 			db.insert("quiz", null, values20);
 
@@ -437,7 +438,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values21.put("explanation", "タージ・マハル（ヒンディー語: ताज महल, ウルドゥー語: تاج محل‎, 英語: Taj Mahal）"
 					+ "は、インド北部アーグラにある、ムガル帝国第5代皇帝シャー・ジャハーンが、1631年に死去した愛妃ム"
 					+ "ムターズ・マハルのため建設した総大理石の墓廟。インド・イスラーム文化の代表的建築である。");
-			values21.put("world_heritage_image_path", "");
+			values21.put("world_heritage_image_path", "@drawable/");
 			values21.put("area", "アジア・中東");
 			db.insert("quiz", null, values21);
 
@@ -451,7 +452,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values22.put("explanation", "イスタンブルの歴史地区は、トルコ最大の都市イスタンブルの旧市街にある歴史的"
 					+ "建造物群に設定されたユネスコの世界遺産リスト登録物件（文化遺産）。日本では「イスタンブール"
 					+ "（の）歴史地区」、「イスタンブール歴史地域」などとも表記される。");
-			values22.put("world_heritage_image_path", "");
+			values22.put("world_heritage_image_path", "@drawable/");
 			values22.put("area", "アジア・中東");
 			db.insert("quiz", null, values22);
 
@@ -469,7 +470,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "たとされるジャヤーヴァルマン7世はアンコール・トムの大部分を築いたとされる。しかし、ジャヤー"
 					+ "ヴァルマン7世が崩御した後のアンコールはアユタヤ朝の進入を度々受けその存在を侵され始め、その"
 					+ "後ポニャー・ヤット王にはついにアンコールを放棄するに至った。");
-			values23.put("world_heritage_image_path", "");
+			values23.put("world_heritage_image_path", "@drawable/");
 			values23.put("area", "アジア・中東");
 			db.insert("quiz", null, values23);
 
@@ -488,7 +489,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "の延長は6,259.6kmであり、また、全長にわたって同じ規格作られているわけではなく、場所によっ"
 					+ "て高さや幅や材料などが異なっている。英語をはじめとする漢字文化圏以外の言語では、「（中国"
 					+ "の）大きな壁」を意味する訳が充てられている。");
-			values24.put("world_heritage_image_path", "");
+			values24.put("world_heritage_image_path", "@drawable/");
 			values24.put("area", "アジア・中東");
 			db.insert("quiz", null, values24);
 
@@ -504,7 +505,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "高3,776 m、日本最高峰（剣ヶ峰）の独立峰で、その優美な風貌は日本国外でも日本の象徴として広く"
 					+ "知られている。数多くの芸術作品の題材とされ、芸術面でも大きな影響を与えた。懸垂曲線の山容を"
 					+ "有した玄武岩質成層火山で構成され、その山体は駿河湾の海岸まで及ぶ。");
-			values25.put("world_heritage_image_path", "");
+			values25.put("world_heritage_image_path", "@drawable/");
 			values25.put("area", "アジア・中東");
 			db.insert("quiz", null, values25);
 
@@ -519,7 +520,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "daro, Mohenjo-daro）は、インダス文明最大級の都市遺跡。紀元前2500年から紀元前1800年にかけ繁"
 					+ "栄し、最大で4万人近くが居住していたと推測される。しかしその後短期間で衰退した。原因としてさ"
 					+ "まざまな説があげられたが、近年の研究では大規模な洪水で衰退したと考えられている。");
-			values26.put("world_heritage_image_path", "");
+			values26.put("world_heritage_image_path", "@drawable/");
 			values26.put("area", "アジア・中東");
 			db.insert("quiz", null, values26);
 
@@ -535,7 +536,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "爆弾の惨禍を今に伝える記念碑（被爆建造物）である。元は広島県物産陳列館として開館し、原爆投下"
 					+ "当時は広島県産業奨励館と呼ばれていた。ユネスコの世界遺産（文化遺産）に登録されており、「二度"
 					+ "と同じような悲劇が起こらないように」との戒めや願いをこめて、特に負の世界遺産と呼ばれている。");
-			values27.put("world_heritage_image_path", "");
+			values27.put("world_heritage_image_path", "@drawable/");
 			values27.put("area", "アジア・中東");
 			db.insert("quiz", null, values27);
 
@@ -551,7 +552,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "地元の住民により発見された。また兵馬俑坑は、この陵を取り巻くように配置されており、その規模"
 					+ "は2万m2余におよぶ、きわめて大きなもので、3つの俑坑には戦車が100余台、陶馬が600体、武士俑は"
 					+ "成人男性の等身大で8000体ちかくあり、みな東を向いている。");
-			values28.put("world_heritage_image_path", "");
+			values28.put("world_heritage_image_path", "@drawable/");
 			values28.put("area", "アジア・中東");
 			db.insert("quiz", null, values28);
 
@@ -568,7 +569,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "じていたシャイレーンドラ王家によって、ダルマトゥンガ王治下の780年頃から建造が開始され、792"
 					+ "年頃に一応の完成をみたと考えられるが、サマラトゥンガ王（位812年～832年）のときに増築されて"
 					+ "いる。");
-			values29.put("world_heritage_image_path", "");
+			values29.put("world_heritage_image_path", "@drawable/");
 			values29.put("area", "アジア・中東");
 			db.insert("quiz", null, values29);
 
@@ -586,7 +587,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "ゴル帝国の侵略を防ぐために、アラブ人が建築したものである。城壁には、7つの門が残っている。旧"
 					+ "市街地は、狭い入り組んだ道になっているが、東西に走る真っ直ぐな道(Straight Street)は、新約聖"
 					+ "書にも登場している。世界最古のモスクといわれる、ウマイヤド・モスクも旧市街地にある。");
-			values30.put("world_heritage_image_path", "");
+			values30.put("world_heritage_image_path", "@drawable/");
 			values30.put("area", "アジア・中東");
 			db.insert("quiz", null, values30);
 
@@ -604,7 +605,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "計の困難さなどにより工事は大幅に遅れ、1959年に着工したものの竣工は1973年だった。大幅な工期"
 					+ "と予算の超過にもかかわらず、完成後はシドニーのみならずオーストラリアのシンボルとしても親し"
 					+ "まれ、また世界で最も建造年代が新しい世界遺産にもなる。");
-			values31.put("world_heritage_image_path", "");
+			values31.put("world_heritage_image_path", "@drawable/");
 			values31.put("area", "オセアニア");
 			db.insert("quiz", null, values31);
 
@@ -623,7 +624,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "ある。しかし、その生物とは微小なサンゴやポリプ等の有機体であり、これらが数十億集まって形成し"
 					+ "ているサンゴ礁。そして、この暗礁は生物多様性を支える重要な役目を持ち、1981年に世界遺産（自然"
 					+ "遺産）に登録された。");
-			values32.put("world_heritage_image_path", "");
+			values32.put("world_heritage_image_path", "@drawable/");
 			values32.put("area", "オセアニア");
 			db.insert("quiz", null, values32);
 
@@ -642,7 +643,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "など160種類の鳥類やトゲトカゲ、トゲホップマウスが生息する。植物は「逆さま植物」という意味でマ"
 					+ "メ科のアップサイドダウンスプラウト、マツバボタンの一種のパラキーヤ、ヨーロツパから伝わりレン"
 					+ "ジャーの駆除対象となっているイヌナスビが自生する。");
-			values33.put("world_heritage_image_path", "");
+			values33.put("world_heritage_image_path", "@drawable/");
 			values33.put("area", "オセアニア");
 			db.insert("quiz", null, values33);
 
@@ -657,7 +658,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "建てられた建築物で、オーストラリアで最初の大陸ヨーロッパ風建築物と言われる。ゴシック様式やロ"
 					+ "マネスク様式など数種の様式が混ざり合った独特の建物である。カールトン庭園は園芸が盛んといわれ"
 					+ "るオーストラリア有数の庭園の一つである。");
-			values34.put("world_heritage_image_path", "");
+			values34.put("world_heritage_image_path", "@drawable/");
 			values34.put("area", "オセアニア");
 			db.insert("quiz", null, values34);
 
@@ -676,7 +677,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "は現在でもカカドゥに住んでいる。公園内の気候は、大きく分けて雨期と乾期の二つに分かれる。雨期"
 					+ "（10月 - 4月）は観光が不可能になるが、乾期（5月 - 9月）には可能になる。また特に先住民である"
 					+ "ビニンジ、ムングイと呼ばれるアボリジニはこの公園における季節を以下の6つに分けている。");
-			values35.put("world_heritage_image_path", "");
+			values35.put("world_heritage_image_path", "@drawable/");
 			values35.put("area", "オセアニア");
 			db.insert("quiz", null, values35);
 
@@ -692,7 +693,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "核実験場の一つとしてアメリカ合衆国が23回の核実験を行った。2010年、第34回世界遺産委員会におい"
 					+ "て、ユネスコの世界遺産リスト（文化遺産）に登録された。マーシャル諸島共和国初の世界遺産となっ"
 					+ "た。");
-			values36.put("world_heritage_image_path", "");
+			values36.put("world_heritage_image_path", "@drawable/");
 			values36.put("area", "オセアニア");
 			db.insert("quiz", null, values36);
 
@@ -707,7 +708,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "承物語で語り継がれてきた伝説的な首長であるロイ・マタの領地だった場所のうち、特にその生涯にゆ"
 					+ "かりのある象徴的な場所、つまり邸宅、死んだ場所、墓の3箇所が対象となっている。これらは首都ポー"
 					+ "トビラのあるエファテ島と、その北東に浮かぶ2つの小島（レレパ島、エレトカ島）に散在している。");
-			values37.put("world_heritage_image_path", "");
+			values37.put("world_heritage_image_path", "@drawable/");
 			values37.put("area", "オセアニア");
 			db.insert("quiz", null, values37);
 
@@ -724,7 +725,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "る。その自然は非常に厳しく、テ・ワヒポウナムへの調査は1960年代にようやく始まった。氷河期からほ"
 					+ "とんど変化を見せていない固有の種や、肉食のカタツムリなど非常に興味深い側面を持つ自然地帯でもあ"
 					+ "る。");
-			values38.put("world_heritage_image_path", "");
+			values38.put("world_heritage_image_path", "@drawable/");
 			values38.put("area", "オセアニア");
 			db.insert("quiz", null, values38);
 
@@ -739,7 +740,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "世界最大の海洋保護区。フェニックス諸島は同国の3つの諸島の一つで、保護区の面積は40万8250km2。"
 					+ "死火山と推定される14の海山(かいざん)を含め、自然のままの生態系が残されており、約200種の珊瑚、"
 					+ "500種の魚類、18種の海洋哺乳類、44種の鳥類などの生息が認められている。キリバス初の世界遺産。");
-			values39.put("world_heritage_image_path", "");
+			values39.put("world_heritage_image_path", "@drawable/");
 			values39.put("area", "オセアニア");
 			db.insert("quiz", null, values39);
 
@@ -755,7 +756,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "湿潤熱帯地域は、グレート・バリア・リーフに沿うように存在する熱帯雨林地帯で、南北に長い。その"
 					+ "範囲は700以上の私有地を含めた国立公園や保護区からなり、多数の動物を抱える。中には絶滅の危機に"
 					+ "瀕した種も存在する。");
-			values40.put("world_heritage_image_path", "");
+			values40.put("world_heritage_image_path", "@drawable/");
 			values40.put("area", "オセアニア");
 			db.insert("quiz", null, values40);
 
@@ -772,7 +773,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "設後、長い年月の内に砂に埋もれていたが、1813年にスイスの東洋学者ヨハン・ルートヴィヒ・ブルク"
 					+ "ハルトによって小壁の一部が発見され、1817年にブルクハルトの知人であったイタリア人探検家ジョヴ"
 					+ "ァンニ・バッティスタ・ベルツォーニによって出入り口が発掘された。");
-			values41.put("world_heritage_image_path", "");
+			values41.put("world_heritage_image_path", "@drawable/");
 			values41.put("area", "アフリカ");
 			db.insert("quiz", null, values41);
 
@@ -789,7 +790,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "た。 ヨーロッパ人としてはイギリスの宣教師であり探検家でもあるデイヴィッド・リヴィングストン"
 					+ "が1855年に見たのが最初だったと信じられている。そこでイギリス人は当時のイギリス女王の名 Vict"
 					+ "oriaを冠して「Victoria Falls」と呼ぶことを行いはじめた。");
-			values42.put("world_heritage_image_path", "");
+			values42.put("world_heritage_image_path", "@drawable/");
 			values42.put("area", "アフリカ");
 			db.insert("quiz", null, values42);
 
@@ -808,7 +809,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "伝道拠点にもなった。1586年末に天正遣欧少年使節一行が日本への帰途天候待ちのため滞在した。1607"
 					+ "年と1608年にはオランダの侵攻にも耐え、インド航路におけるポルトガルの重要な拠点としての地位を"
 					+ "保持し続け、黒人奴隷、香辛料、金などの交易が行われていた。");
-			values43.put("world_heritage_image_path", "");
+			values43.put("world_heritage_image_path", "@drawable/");
 			values43.put("area", "アフリカ");
 			db.insert("quiz", null, values43);
 
@@ -826,7 +827,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "から保護対象となっていた。192年に、法的な保護対象となり、タンザニア独立後の1973年、山域の一"
 					+ "部75,575haが国立公園として指定された。1987年に世界遺産に登録され、自然保護が活発的に行われ"
 					+ "ている。一方、キリマンジャロ周囲の乾燥化に伴い、山頂の氷河の縮小が懸念されている。");
-			values44.put("world_heritage_image_path", "");
+			values44.put("world_heritage_image_path", "@drawable/");
 			values44.put("area", "アフリカ");
 			db.insert("quiz", null, values44);
 
@@ -840,7 +841,7 @@ public class DBManager extends SQLiteOpenHelper {
 			values45.put("explanation", "「メンフィスとその墓地遺跡 - ギザからダハシュールまでのピラミッド地帯」は、"
 					+ "エジプトにあるユネスコの世界遺産登録物件のひとつ。その名前に端的に表れているように、エジプトの"
 					+ "ピラミッドとしてよく知られている特徴的なピラミッドの数々が含まれている。");
-			values45.put("world_heritage_image_path", "");
+			values45.put("world_heritage_image_path", "@drawable/");
 			values45.put("area", "アフリカ");
 			db.insert("quiz", null, values45);
 
@@ -858,7 +859,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "中王国の第11王朝から新王国の第18王朝までテーベがエジプトの都とされた。その後、第19王朝でデル"
 					+ "タに遷都されたが、アメン信仰の総本山であるカルナック神殿を中心として、重要な宗教都市としての"
 					+ "地位を保ち続けた。");
-			values46.put("world_heritage_image_path", "");
+			values46.put("world_heritage_image_path", "@drawable/");
 			values46.put("area", "アフリカ");
 			db.insert("quiz", null, values46);
 
@@ -877,7 +878,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "スタンティノポリスなどの主要市場との関係が絶たれたことが衰退につながったと推測されている。"
 					+ "王国の衰退とともにアスクムの都市も衰退した。この結果、エチオピア帝国の中心地は内陸部にシフ"
 					+ "トした。");
-			values47.put("world_heritage_image_path", "");
+			values47.put("world_heritage_image_path", "@drawable/");
 			values47.put("area", "アフリカ");
 			db.insert("quiz", null, values47);
 
@@ -893,7 +894,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "チュニス湖  (Lake of Tunis)  東岸にあった古代都市国家。現在は歴史的な遺跡のある観光地とな"
 					+ "っているほか、行政上はチュニス県カルタゴ市として首都圏の一部を成す。「カルタゴ」の名は、"
 					+ "フェニキア語のカルト・ハダシュト（Kart Hadasht＝「新しい町」）に由来するとされる。");
-			values48.put("world_heritage_image_path", "");
+			values48.put("world_heritage_image_path", "@drawable/");
 			values48.put("area", "アフリカ");
 			db.insert("quiz", null, values48);
 
@@ -912,7 +913,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "めカルデラ内部は外部と遮断されており、このカルデラ内に生息する大型動物のほとんどはカルデラの"
 					+ "外にでることはない。周囲と隔離された生態系が形成されるに至った。しかしながら、キリンやインパ"
 					+ "ラ以外の東アフリカのサバンナに生息する動物はほぼ観察することができる。");
-			values49.put("world_heritage_image_path", "");
+			values49.put("world_heritage_image_path", "@drawable/");
 			values49.put("area", "アフリカ");
 			db.insert("quiz", null, values49);
 
@@ -929,7 +930,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "は紀元前2世紀後半にこの街を占領した。ドゥッガは東ローマ帝国の支配地となった後、ヴァンダル人"
 					+ "に占有された。ドゥッガには印象的なローマの遺跡が残っており、1997年にユネスコの世界遺産に登"
 					+ "録された。");
-			values50.put("world_heritage_image_path", "");
+			values50.put("world_heritage_image_path", "@drawable/");
 			values50.put("area", "アフリカ");
 			db.insert("quiz", null, values50);
 
@@ -950,7 +951,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "縦約3.1メートルで、両目・口・右耳の形が確認されている。動物と見られる絵は、横約2.7メートル、"
 					+ "縦約6.9メートル。種類は特定できていない。山形大学は2012年10月30日にナスカ市にナスカ研究所を開"
 					+ "所した。2013年に入って同大はさらに2つ並んだ人物と見られる地上絵を発見、発表した。");
-			values51.put("world_heritage_image_path", "");
+			values51.put("world_heritage_image_path", "@drawable/");
 			values51.put("area", "北米・南米");
 			db.insert("quiz", null, values51);
 
@@ -968,7 +969,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "に国立公園に指定された。この公園の誕生は環境保護運動の初期の成功例である。国立公園というステー"
 					+ "タスが、公園内でコロラド川をせき止めるという提案を退けるのに役立ったのかもしれない。1979年に"
 					+ "は、世界遺産に登録された。");
-			values52.put("world_heritage_image_path", "");
+			values52.put("world_heritage_image_path", "@drawable/");
 			values52.put("area", "北米・南米");
 			db.insert("quiz", null, values52);
 
@@ -986,7 +987,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "アとは、母なる神パパハナウモクと父なる神ワケアを組み合わせたハワイ語の造語。分布する島々のう"
 					+ "ち、重要な考古学遺跡や多くの歴史的価値のある遺構があるニホア島とモクマナマナ島は、自然との融"
 					+ "合を基調とするハワイ先住民にとって、魂の拠りどころとされる聖地でもある。");
-			values53.put("world_heritage_image_path", "");
+			values53.put("world_heritage_image_path", "@drawable/");
 			values53.put("area", "北米・南米");
 			db.insert("quiz", null, values53);
 
@@ -1002,7 +1003,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "抗争で破壊されてしまった。7世紀から1,000年にわたって作られたモアイ像は部族の長の姿を表した"
 					+ "のだと云われている。モアイ以外にも、洞窟内の壁画や住居跡などラパ・ヌイ文化を示すものも含ま"
 					+ "れている。");
-			values54.put("world_heritage_image_path", "");
+			values54.put("world_heritage_image_path", "@drawable/");
 			values54.put("area", "北米・南米");
 			db.insert("quiz", null, values54);
 
@@ -1018,7 +1019,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "チュ・ピチュ遺跡はインカ帝国時代の遺跡の中では保存状態がきわめて良く、それに加えて周辺の自然"
 					+ "環境は優れた景観の中に絶滅危惧種・危急種をはじめとする重要な動物相・植物相を含んでいることか"
 					+ "ら、1983年に複合遺産として登録された。総面積は約326km2で、そのうち都市遺跡部分は約5km2である。");
-			values55.put("world_heritage_image_path", "");
+			values55.put("world_heritage_image_path", "@drawable/");
 			values55.put("area", "北米・南米");
 			db.insert("quiz", null, values55);
 
@@ -1038,7 +1039,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "0km流れてイグアスの滝から23km下流でパラナ川に合流する。公園内での最大幅は1500mで、最初に南"
 					+ "へ曲がったあと北へ曲がり、大きなU字型を描いている。土手に沿って花がアルゼンチンの国花にもな"
 					+ "っているアメリカデイゴを含む木々が密生している。");
-			values56.put("world_heritage_image_path", "");
+			values56.put("world_heritage_image_path", "@drawable/");
 			values56.put("area", "北米・南米");
 			db.insert("quiz", null, values56);
 
@@ -1055,7 +1056,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "群馬県、栃木県)より少し狭い程度。四国の約1.6倍である。テーブルマウンテンが大小100余りジャン"
 					+ "グルに浮かぶ一帯があり、ギアナ高地と呼ばれている。この地帯は、プレートテクトニクスの影響をほ"
 					+ "とんど受けていないため、約20億年前の地質がそのまま残っていると考えられている。");
-			values57.put("world_heritage_image_path", "");
+			values57.put("world_heritage_image_path", "@drawable/");
 			values57.put("area", "北米・南米");
 			db.insert("quiz", null, values57);
 
@@ -1071,7 +1072,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "メの島」という意味で、スペイン語でゾウガメを意味する galápago からきている。正式名称はコロン"
 					+ "諸島（スペイン語: Archipiélago de Colón）で「コロンブスの群島」を意味する。行政面ではガラパ"
 					+ "ゴス県にある。約2万5124人(2010年統計)が居住し、主要言語はスペイン語。");
-			values58.put("world_heritage_image_path", "");
+			values58.put("world_heritage_image_path", "@drawable/");
 			values58.put("area", "北米・南米");
 			db.insert("quiz", null, values58);
 
@@ -1088,7 +1089,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "である。この地域では冬でも気温が-5℃前後までしか下がらず、氷河は溶けたり凍ったりを繰り返して"
 					+ "いる。その上に雪が積もるため氷河の重みは増し、山の斜面をどんどん押し出されてくる。気温が上が"
 					+ "る夏には、ビルほどの高さの氷の塊が轟音と共に一気に湖へと崩れ落ちる様子が見られる。");
-			values59.put("world_heritage_image_path", "");
+			values59.put("world_heritage_image_path", "@drawable/");
 			values59.put("area", "北米・南米");
 			db.insert("quiz", null, values59);
 
@@ -1106,7 +1107,7 @@ public class DBManager extends SQLiteOpenHelper {
 					+ "話す人が多いが、スペイン語を全く解さない人は近年だいぶ少なくなってきた。スペイン以前の状況は"
 					+ "不詳であるが、町は1546年に鉱山町として設立された。人口も一時は20万人を数えた。労働力としてア"
 					+ "フリカ人奴隷も連れてこられている。");
-			values60.put("world_heritage_image_path", "");
+			values60.put("world_heritage_image_path", "@drawable/");
 			values60.put("area", "北米・南米");
 			db.insert("quiz", null, values60);
 			//db.setTransactionSuccessful();
@@ -1150,10 +1151,11 @@ public class DBManager extends SQLiteOpenHelper {
 	//ヨーロッパ1クイズ問題
 	public String selectEurope1Quiz(SQLiteDatabase db){
 		String result = null;
-		String select = "SELECT * "
-					  + "FROM quiz "
-					  + "WHERE area = 'ヨーロッパ1' "
-					  + "ORDER BY RANDOM()";
+		String select = "SELECT problem, selection_one, selection_two, selection_three, selection_four, "
+						+ "world_heritage_image_path "
+						+ "FROM quiz "
+						+ "WHERE area = ヨーロッパ1 "
+						+ "ORDER BY RANDOM()";
 
 		SQLiteCursor cursor =(SQLiteCursor)db.rawQuery(select, null);
 		if(cursor.getCount() != 0){
