@@ -1151,9 +1151,9 @@ public class DBManager extends SQLiteOpenHelper {
 	public String selectEurope1Quiz(SQLiteDatabase db){
 		String result = null;
 		String select = "SELECT * "
-						+ "FROM quiz "
-						+ "WHERE area = 'ヨーロッパ1' "
-						+ "ORDER BY RANDOM()";
+					  + "FROM quiz "
+					  + "WHERE area = 'ヨーロッパ1' "
+					  + "ORDER BY RANDOM()";
 
 		SQLiteCursor cursor =(SQLiteCursor)db.rawQuery(select, null);
 		if(cursor.getCount() != 0){
