@@ -16,7 +16,7 @@ public class Character extends Activity {
 		setContentView(R.layout.character);
 
 		//TOPが押されたら
-		ImageView top =(ImageView)findViewById(R.id.charatop);
+		ImageView top =(ImageView)findViewById(R.id.topview);
 		top.setOnClickListener(new View.OnClickListener() {
 
 			@Override

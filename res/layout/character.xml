@@ -11,13 +11,13 @@
         android:src="@drawable/popkun" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageViewEurope2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/evolve" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageViewAsiaMiddleEast"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/top" />

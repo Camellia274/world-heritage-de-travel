@@ -22,7 +22,7 @@ public class CheckList extends Activity {
 		setContentView(R.layout.checklist);
 
 		//TOPが押されえたら
-		ImageView top =(ImageView)findViewById(R.id.checktop);
+		ImageView top =(ImageView)findViewById(R.id.imageViewEurope1);
 		top.setOnClickListener(new View.OnClickListener() {
 
 			@Override
