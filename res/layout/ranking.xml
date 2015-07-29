@@ -48,7 +48,7 @@
         android:textSize="40dp" />
 
     <ImageView
-        android:id="@+id/imageViewEurope2"
+        android:id="@+id/imageViewNext"
         android:layout_width="wrap_content"
         android:layout_height="135dp"
         android:src="@drawable/matyupityu" />

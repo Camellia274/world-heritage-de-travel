@@ -37,7 +37,7 @@ public class TiikiQuiz extends Activity implements OnClickListener{
 
 		ImageView europe1 = (ImageView)findViewById(R.id.imageViewEurope1);
 		europe1.setOnClickListener(this);
-		ImageView europe2 = (ImageView)findViewById(R.id.imageViewEurope2);
+		ImageView europe2 = (ImageView)findViewById(R.id.imageViewNext);
 		europe2.setOnClickListener(this);
 		ImageView asiaMiddleEast = (ImageView)findViewById(R.id.imageViewAsiaMiddleEast);
 		asiaMiddleEast.setOnClickListener(this);
@@ -56,11 +56,11 @@ public class TiikiQuiz extends Activity implements OnClickListener{
 		switch (v.getId()) {
 			case R.id.imageViewEurope1:
 				String quiz = dbm.selectEurope1Quiz(sqlDB);
-				Log.v("log", quiz);
+				Log.v("クイズ取得確認", quiz);
 				intent = new Intent(TiikiQuiz.this,Europe1Quiz.class);
 				break;
 
-			case R.id.imageViewEurope2:
+			case R.id.imageViewNext:
 				intent = new Intent(TiikiQuiz.this,Europe2Quiz.class);
 				break;
 
