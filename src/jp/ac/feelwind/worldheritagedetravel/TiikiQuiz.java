@@ -7,7 +7,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;
@@ -56,7 +55,7 @@ public class TiikiQuiz extends Activity implements OnClickListener{
 		switch (v.getId()) {
 			case R.id.imageViewEurope1:
 				String quiz = dbm.selectEurope1Quiz(sqlDB);
-				Log.v("クイズ取得確認", quiz);
+				//Log.v("クイズ取得確認", quiz);
 				intent = new Intent(TiikiQuiz.this,Europe1Quiz.class);
 				break;
 

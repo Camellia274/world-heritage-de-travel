@@ -1150,19 +1150,16 @@ public class DBManager extends SQLiteOpenHelper {
 
 	//ヨーロッパ1クイズ問題
 	public String selectEurope1Quiz(SQLiteDatabase db){
-		String result = null;
-		String select = "SELECT * "
-					  + "FROM quiz "
-					  + "WHERE area = 'ヨーロッパ1' "
-					  + "ORDER BY RANDOM()";
+		String quiz = null;
+		String sql = "SELECT * "
+				   + "FROM quiz "
+				   + "WHERE area = 'ヨーロッパ1' "
+				   + "ORDER BY RANDOM()";
 
-		SQLiteCursor cursor =(SQLiteCursor)db.rawQuery(select, null);
-		if(cursor.getCount() != 0){
-			cursor.moveToFirst();
-			result = cursor.getString(1);
-		}
+		SQLiteCursor cursor =(SQLiteCursor)db.rawQuery(sql, null);
+
 		cursor.close();
-		return result;
+		return quiz;
 	}
 
 }
